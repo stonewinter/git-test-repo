@@ -2,5 +2,9 @@ first time to test
 2nd time
 3rd time
 4th time
+<<<<<<< HEAD
 
 6th time checkout to master and edit
+=======
+5th br-testing 
+>>>>>>> br-testing
