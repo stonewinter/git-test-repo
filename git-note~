@@ -1,0 +1,7 @@
+git push remote-hostname local-branch-name:remote-branch-name
+    push/create local branch to remote branch
+
+git checkout -b local-branch-name remote-hostname/remote-branch-name
+    create a local branch tracked with remote branch
+
+

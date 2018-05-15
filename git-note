@@ -1,0 +1,73 @@
+# NOTE: remote-hostname = origin
+# NOTE: OR means another way to do it
+# NOTE: [] means optional
+
+
+git push remote-hostname local-branch-name[:remote-branch-name]
+    push/create local branch to remote branch
+
+
+
+git checkout -b local-branch-name remote-hostname/remote-branch-name
+    create a local branch tracked with remote branch
+
+
+
+git branch-a
+    list all branches including remote and local ones
+
+
+
+git branch -vv
+    list track info between remote branches and local branches
+
+
+
+git push origin --delete remote-branch-name
+OR git push origin :remote-branch-name 
+    delete a remote branch
+
+
+
+git fetch -p
+    fetch new content and remote the local branches that are not tracked with	  remote branches
+
+
+
+
+step.1 git push origin :remote-branch-name
+step.2 git branch -m local-branch-name new-local-branch-name
+step.3 git push origin new-local-branch-name
+    rename remote branch 
+
+
+
+
+
+git merge local-branch-name
+    merge current branch with a local branch
+
+
+
+git merge origin/remote-branch-name
+    merge a local branch to its remote branch that is tracked with
+
+
+
+git merge origin
+    merge all local branches to remote branches that are trackes with
+
+
+
+git fetch origin/remote-branch-name
+    refresh local downloading buffer with remote latest content in all branches
+
+
+
+git fetch origin/remote-branch-name
+    refresh local downloading buffer with remote latest content in a particular branch
+    
+
+
+git merge --abort
+    abort the merge operation when hit a conflict
