@@ -54,7 +54,7 @@ git merge origin/remote-branch-name
 
 
 
-git merge origin
+git merge
     merge all local branches to remote branches that are trackes with
 
 
