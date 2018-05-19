@@ -3,6 +3,17 @@
 # NOTE: [] means optional
 
 
+
+git remote add origin url.git
+    add a remote repo host to loacl and name it with origin
+
+
+
+git pull origin master --allow-unrelated-histories
+    allow the remote to merge with local without histories check
+
+
+
 git push remote-hostname local-branch-name[:remote-branch-name]
     push/create local branch to remote branch
 
@@ -30,7 +41,7 @@ OR git push origin :remote-branch-name
 
 
 git fetch -p
-    fetch new content and remote the local branches that are not tracked with	  remote branches
+    fetch new content and remove the local branches that are not tracked with	  remote branches
 
 
 
